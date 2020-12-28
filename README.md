@@ -1,6 +1,8 @@
 Algorithm Problem Solving Strategies
 =========================
 
-## 7kQon, shineh96
+7kQon, shineh96
+-------------------
 
-## Gold~ Problem 7~ / week
+Gold~ Problem 7~ / week
+------------------------------
