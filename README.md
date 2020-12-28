@@ -1,4 +1,5 @@
-#Algorithm Problem Solving Strategies
+Algorithm Problem Solving Strategies
+=========================
 
 ## 7kQon, shineh96
 
