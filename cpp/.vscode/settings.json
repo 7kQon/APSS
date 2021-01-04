@@ -6,6 +6,13 @@
         "xlocale": "cpp",
         "xlocnum": "cpp",
         "xmemory": "cpp",
-        "xstring": "cpp"
+        "xstring": "cpp",
+        "algorithm": "cpp",
+        "istream": "cpp",
+        "limits": "cpp",
+        "vector": "cpp",
+        "xutility": "cpp",
+        "deque": "cpp",
+        "tuple": "cpp"
     }
 }
