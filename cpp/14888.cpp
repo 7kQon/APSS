@@ -5,8 +5,8 @@ using namespace std;
 
 int N;
 int x;
-int max = INT_MIN;
-int min = INT_MAX;
+int MAX = -1000000001;
+int MIN = 1000000001;
 
 vector<int> ops(4);
 vector<int> nums(11);
@@ -22,8 +22,8 @@ int calculate(int lhs, int rhs, int op) {
 
 void backtrack(int k) {
 	if (k == N - 1) {
-		if (nums[k] <= min) min = nums[k];
-		if (nums[k] >= max) max = nums[k];
+		if (nums[k] <= MIN) MIN = nums[k];
+		if (nums[k] >= MAX) MAX = nums[k];
 		return;
 	}
 	for (int i = 0; i < 4; i++) {
@@ -48,6 +48,6 @@ int main() {
 
 	backtrack(0);
 
-	cout << max << "\n";
-	cout << min << "\n";
+	cout << MAX << "\n";
+	cout << MIN << "\n";
 }
